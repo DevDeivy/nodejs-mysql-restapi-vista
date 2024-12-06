@@ -1,0 +1,31 @@
+.container{
+    display: grid;
+    place-items: center;
+    background-color: #bebe;
+    height: 75vh;
+}
+
+.wrapper{
+    background-color: #000000e2;
+    width: 80%;
+    height: 40rem;
+    padding: 2rem 0;
+    border-radius: .5rem;
+    display: flex;
+}
+
+.card{
+    height: max-content;
+    width: auto;
+    margin-left: 2rem;
+    padding: 0 .5rem;
+    background-color: aquamarine;
+}
+
+h2{
+    color: black;
+}
+
+label{
+    color: crimson;
+}

@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="wrapper">
+        <form #create="ngForm" (ngSubmit)="onSubmit()" class="form">
+            <h2>Delete</h2>
+            <div class="section">
+                <label for="name">Id</label>
+                <input #id="ngModel" [(ngModel)]="employee.id" type="number" name="id" value="" required>
+            </div>
+            <button type="submit" (click)="validateForm()">Delete</button>
+            <small *ngIf="err">ID not exists</small>
+            <small *ngIf="success">employee deleted</small>
+        </form>
+    </div>
+</div>

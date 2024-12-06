@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    padding: 0 2rem;
+    background-color: #000000e2;
+}
+
+.logo{
+    color: white;
+}
+
+.content{
+    display: flex;
+    gap: 3rem;
+    font-weight: 600;
+}
+
+@media(max-width: 580px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 0;
+        height: auto;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+}
+
+.a{
+    font-size: 2rem;
+}

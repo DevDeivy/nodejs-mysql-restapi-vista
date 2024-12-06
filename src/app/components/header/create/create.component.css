@@ -1,0 +1,42 @@
+.container{
+    display: grid;
+    place-items: center;
+    background-color: #bebe;
+    height: 75vh;
+}
+
+.wrapper{
+    background-color: #000000e2;
+    width: 40rem;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+}
+
+input{
+    height: 3rem;
+    width: 20rem;
+    padding: 0 .5rem;
+}
+
+button{
+    height: 3rem;
+    width: 18rem;
+    background-color: #bebe;
+    font-weight: 600;
+}
