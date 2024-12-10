@@ -1,0 +1,15 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    gap: .2rem;
+    background-color: #000000e2;
+}
+
+hr{
+    background-color: white;
+    width: 80%;
+    height: .05rem;
+}

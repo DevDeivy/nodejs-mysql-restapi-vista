@@ -1,0 +1,44 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.active{
+    color: red;
+}
+input, button{
+    border: none;
+    outline: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+label{
+    color: whitesmoke;
+}
+
+h2{
+    color: whitesmoke;
+}
+
+small{
+    color: whitesmoke;
+}

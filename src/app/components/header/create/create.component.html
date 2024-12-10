@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="wrapper">
+        <form #create="ngForm" (ngSubmit)="onSubmit()" class="form">
+            <h2>Create</h2>
+            <div class="section">
+                <label for="id">id</label>
+                <input #name="ngModel" [(ngModel)]="employee.id" type="number" name="id" min="1" required>
+            </div>
+            <div class="section">
+                <label for="name">Name</label>
+                <input #name="ngModel" [(ngModel)]="employee.name" type="text" name="name" required>
+            </div>
+            <div class="section">
+                <label for="salary">Salary</label>
+                <input #salary="ngModel" [(ngModel)]="employee.salary" type="number" name="salary" required>
+            </div>
+            <button type="submit">Create</button>
+            <small *ngIf="err">Enter a name and salary</small>
+            <small *ngIf="num0">Enter a valid id</small>
+            <small *ngIf="success">Employee created</small>
+        </form>
+    </div>
+</div>
